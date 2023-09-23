@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the data
-file_path = r"Books.csv."
+file_path = r"Desktop\AUB\Courses\MSBA325 - Visualtion\Streamlit\Books.csv"
 data = pd.read_csv(file_path)
 
 # Create a Streamlit app
